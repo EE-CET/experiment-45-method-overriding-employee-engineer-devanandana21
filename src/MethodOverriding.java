@@ -8,10 +8,7 @@ class Engineer extends Employee {
 
     @Override
     void display() {
-        // Engineer's display
         System.out.println("Name of class is Engineer");
-
-        // Call base class display using super
         super.display();
     }
 }
